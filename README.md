@@ -15,6 +15,3 @@
 The _GitHub Viewer_ represents a simple desktop application to show GitHub repositories.
 
 The software has been published under the terms of _MIT License_.
-
-
-Simple desktop application to show GitHub repositories.
