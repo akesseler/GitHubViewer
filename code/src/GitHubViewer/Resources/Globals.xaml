@@ -1,0 +1,107 @@
+﻿<!--
+ * MIT License
+ * 
+ * Copyright (c) 2019 plexdata.de
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ -->
+
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="DefaultBorderColor">#CBCCCC</Color>
+
+    <Color x:Key="DefaultControlColor">#FCFCFC</Color>
+
+    <Color x:Key="DefaultControlColorDarker">#E8E8E8</Color>
+
+    <Color x:Key="DefaultHeaderColorLight">#FEFEFE</Color>
+
+    <Color x:Key="DefaultHeaderColorDark">#DFDFDF</Color>
+
+    <Color x:Key="HighlightBorderColor">#E5C365</Color>
+
+    <Color x:Key="HighlightControlColorLight">#FFFCF2</Color>
+
+    <Color x:Key="HighlightControlColorDark">#E5C365</Color>
+
+    <Color x:Key="ClickedBorderColor">#E5C365</Color>
+
+    <Color x:Key="ClickedControlColor">#F2E0AF</Color>
+
+    <Color x:Key="PressedBorderColor">#9999FF</Color>
+
+    <Color x:Key="PressedControlColorLight">#EEEEFF</Color>
+
+    <Color x:Key="PressedControlColorDark">#AAAAFF</Color>
+
+    <Color x:Key="PagingButtonStandardColor">#0067E5</Color>
+
+    <Color x:Key="PagingButtonHighlightColor">#E9ECEF</Color>
+
+    <Color x:Key="DefaultButtonColorLight">#FEFEFE</Color>
+    
+    <Color x:Key="DefaultButtonColorDark">#DFDFDF</Color>
+
+    <Color x:Key="DefaultButtonColorDarker">#C4C4C4</Color>
+
+    <SolidColorBrush x:Key="DefaultBorderBrush" Color="{StaticResource DefaultBorderColor}"/>
+
+    <LinearGradientBrush x:Key="DefaultHeaderBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="{StaticResource DefaultHeaderColorLight}" Offset="0"/>
+        <GradientStop Color="{StaticResource DefaultHeaderColorDark}" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="DefaultControlBrush" Color="{StaticResource DefaultControlColor}"/>
+
+    <SolidColorBrush x:Key="DefaultControlBrushDarker" Color="{StaticResource DefaultControlColorDarker}"/>
+
+    <SolidColorBrush x:Key="HighlightBorderBrush" Color="{StaticResource HighlightBorderColor}"/>
+
+    <LinearGradientBrush x:Key="HighlightControlBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="{StaticResource HighlightControlColorLight}" Offset="0"/>
+        <GradientStop Color="{StaticResource HighlightControlColorDark}" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="ClickedBorderBrush" Color="{StaticResource ClickedBorderColor}"/>
+
+    <SolidColorBrush x:Key="ClickedControlBrush" Color="{StaticResource ClickedControlColor}"/>
+
+    <SolidColorBrush x:Key="PressedBorderBrush" Color="{StaticResource PressedBorderColor}"/>
+
+    <LinearGradientBrush x:Key="PressedControlBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="{StaticResource PressedControlColorLight}" Offset="0"/>
+        <GradientStop Color="{StaticResource PressedControlColorDark}" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="PagingButtonStandardBrush" Color="{StaticResource PagingButtonStandardColor}"/>
+
+    <SolidColorBrush x:Key="PagingButtonHighlightBrush" Color="{StaticResource PagingButtonHighlightColor}"/>
+
+    <LinearGradientBrush x:Key="DefaultButtonBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="{StaticResource DefaultButtonColorLight}" Offset="0"/>
+        <GradientStop Color="{StaticResource DefaultButtonColorDark}" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="FocusButtonBrush" Color="{StaticResource DefaultButtonColorDark}"/>
+
+    <SolidColorBrush x:Key="PressedButtonBrush" Color="{StaticResource DefaultButtonColorDarker}"/>
+
+</ResourceDictionary>
